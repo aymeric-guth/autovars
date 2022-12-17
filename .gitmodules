@@ -1,0 +1,6 @@
+[submodule "examples/ansible-keepass"]
+	path = examples/ansible-keepass
+	url = https://github.com/viczem/ansible-keepass
+[submodule "examples/sdm.common"]
+	path = examples/sdm.common
+	url = https://gitlab.math.tu-dresden.de/sdm/sdm.common

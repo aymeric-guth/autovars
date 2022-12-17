@@ -1,0 +1,31 @@
+[tool.ruff]
+# Enable Pyflakes and pycodestyle rules.
+select = ["E", "F"]
+
+# Never enforce `E501` (line length violations).
+ignore = ["E501", "E402"]
+
+# Always autofix, but never try to fix `F401` (unused imports).
+fix = false
+unfixable = ["F401"]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]

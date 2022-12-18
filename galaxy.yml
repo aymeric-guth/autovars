@@ -5,7 +5,7 @@
 namespace: av
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: vars
+name: autovars
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 0.0.1
@@ -31,6 +31,7 @@ license_file: 'LICENSE'
 # requirements as 'namespace' and 'name'
 tags:
   - vars
+  - autovars
   - module
   - plugin
 
@@ -57,4 +58,3 @@ repository: https://git.ars-virtualis.org/yul/autovars
 # uses 'fnmatch' to match the files or directories. Some directories and files like 'galaxy.yml', '*.pyc', '*.retry',
 # and '.git' are always filtered
 build_ignore: []
-

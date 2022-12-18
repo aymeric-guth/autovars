@@ -29,3 +29,25 @@ exclude = [
     "node_modules",
     "venv",
 ]
+
+[tool.pyright]
+include = ["plugins"]
+#exclude = [
+#    "**/node_modules",
+#    "**/__pycache__",
+#]
+# ignore = ["src/oldstuff"]
+defineConstant = { DEBUG = true }
+# stubPath = "src/stubs"
+typeshedPath = "/Users/yul/Desktop/Repos/typeshed"
+venvPath = "."
+venv = ".venv"
+# pythonPath = ".venv/bin/python"
+reportMissingImports = true
+reportMissingTypeStubs = false
+# pythonVersion = "3.10"
+# pythonPlatform = "Darwin"
+executionEnvironments = [
+    # { root = "src/web", pythonVersion = "3.5", pythonPlatform = "Windows", extraPaths = [ "src/service_libs" ] },
+    { root = "plugins" },
+]
